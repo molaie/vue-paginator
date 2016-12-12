@@ -1,0 +1,26 @@
+{
+  "name": "vue-paginator",
+  "version": "0.0.1",
+  "description": "General Bootstrap Pagination component for use with vuejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molaie/vue-paginator.git"
+  },
+  "keywords": [
+    "vue",   
+    "vuejs",
+    "bootstrap",
+    "pagination", 
+	"component"
+  ],
+  "author": "Ahmad Molaie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/molaie/vue-paginator/issues"
+  },
+  "homepage": "https://github.com/molaie/vue-paginator#readme"
+}
