@@ -71,7 +71,7 @@
             Object.assign(this.pagerOptions, this.options);
         },
         computed: {
-            pagerArray: function() {
+            pagerarray: function() {
                 var pagesCount = Math.ceil(this.total / this.perPage);
                 let from = this.currentPage - this.offset;
                 if (from < 1) {
@@ -88,7 +88,6 @@
                     arr.push(from);
                     from++;
                 }
-
                 return arr;
             },
             sizeClass() {
@@ -111,10 +110,7 @@
                 if (this.currentPage === page) {
                     return;
                 }
-                //update component options
-                //this.currentPage = page;
                 //let parent knows of change
-                console.log('emitting');
                 this.$emit('pagechanged', page);
             }
         }
